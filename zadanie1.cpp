@@ -31,7 +31,7 @@ int main()
  
   int q;
   cout<<"Podaj liczbê zapytañ: ";
-  cin>>w;
+  cin>>q;
  
   int nr, przedmiot;
 
@@ -43,7 +43,7 @@ int main()
     if(nr<0||nr>=klasa)
     {
       cout<<"W bazie nie ma studenta o takim numerze!"<<endl;
-      continue
+      continue;
     }
     cout<<"Podaj nr przedmiotu [0..3]: ";
     cin>>przedmiot;
@@ -75,5 +75,6 @@ int main()
   }
   cout<<endl;
   system("pause");
+  return 0;
 }
  
