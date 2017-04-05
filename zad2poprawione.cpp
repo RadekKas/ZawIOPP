@@ -30,7 +30,7 @@ int main()
     {"Dworznik",  4.20},
     {"Kaminski",  3.00}
   };
-  cout<<"Dane studentów przed sortowaniem: "<<endl;
+  cout<<"Dane studentow przed sortowaniem: "<<endl;
   for(int i=0;i<10;i++)
     cout<<"Nazwisko: "<<studenci[i].nazwisko
     <<", srednia: "<<fixed<<setprecision(2)
